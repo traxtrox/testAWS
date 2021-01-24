@@ -6,7 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['home.page.scss'],
 })
 export class HomePage {
+  dato='';
 
-  constructor() {}
+  constructor() {
+    console.log('ini');
+  }
+
+  public sendData() {
+    console.log('dendData');
+  }
 
 }
